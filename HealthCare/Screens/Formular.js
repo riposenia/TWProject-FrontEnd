@@ -96,6 +96,7 @@ export default function Formular({navigation}) {
           </FooterTab>
         </Footer>
         </View>
+        
 
 
       </View>
