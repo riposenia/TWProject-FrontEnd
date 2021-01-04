@@ -9,15 +9,15 @@ export default function HomeAsistenta({navigation}){
             <Card style={{marginTop:'20%'}}>
             <CardItem>
               <Body>
-                <Button bordered style={{marginTop:'20%' , width:'90%', alignSelf:'center', justifyContent:'left', backgroundColor:"white", borderWidth:3, borderColor:'red'}}>
+                <Button bordered style={{marginTop:'20%' , width:'90%', alignSelf:'center', justifyContent:'flex-start',  backgroundColor:"white", borderWidth:3, borderColor:'red'}}>
                     <Icon name="cash" style={{fontSize: 30, color: 'red'}} />
                     <Text style={{color:'red'}}>Gestioneaza contabilitatea</Text>
                 </Button>
-                 <Button bordered style={{marginTop:'10%', width:'90%', alignSelf:'center', justifyContent:'left', backgroundColor:"white", borderWidth:3, borderColor:'red'}} onPress={()=>navigation.navigate("GestioneazaPacienti")}>
+                 <Button bordered style={{marginTop:'10%', width:'90%', alignSelf:'center', justifyContent:'flex-start',  backgroundColor:"white", borderWidth:3, borderColor:'red'}} onPress={()=>navigation.navigate("GestioneazaPacienti")}>
                     <Icon name="medkit" style={{fontSize: 30, color: 'red'}} />
                     <Text style={{color:'red'}}>Gestioneaza pacienti</Text>
                 </Button>
-                 <Button bordered style={{marginTop:'10%' ,marginBottom:'20%', width:'90%', alignSelf:'center', justifyContent:'left', backgroundColor:"white", borderWidth:3, borderColor:'red'}} onPress={()=>navigation.navigate("GestioneazaProgramari")} >
+                 <Button bordered style={{marginTop:'10%' ,marginBottom:'20%', width:'90%', alignSelf:'center', justifyContent:'flex-start',  backgroundColor:"white", borderWidth:3, borderColor:'red'}} onPress={()=>navigation.navigate("GestioneazaProgramari")} >
                     <Icon name="document" style={{fontSize: 30, color: 'red'}} />
                     <Text style={{color:'red'}}>Gestioneaza programari</Text>
                 </Button>

@@ -31,21 +31,21 @@ export default function Consulta({navigation}) {
           <Card>
           
               <CardItem>
-              <Button vertical style={{marginTop:'5%' , width:'100%', alignSelf:'center', justifyContent:'center',backgroundColor:"white", borderWidth:2, borderColor:'red'}}>
+              <Button vertical onPress={()=>navigation.navigate('ProgramariDoctor')} style={{marginTop:'5%' , width:'100%', alignSelf:'center', justifyContent:'center',backgroundColor:"white", borderWidth:2, borderColor:'red'}}>
               <Icon name="checkbox" style={{fontSize: 30, color: 'red'}}/>
               <Text style={{color:"red"}}>Finalizeaza consultatia</Text>
             </Button>
               </CardItem>
 
               <CardItem>
-              <Button vertical style={{marginTop:'5%' , width:'100%', alignSelf:'center', justifyContent:'center',backgroundColor:"white", borderWidth:2, borderColor:'red'}}>
+              <Button vertical onPress={()=>navigation.navigate('ProgramariDoctor')} style={{marginTop:'5%' , width:'100%', alignSelf:'center', justifyContent:'center',backgroundColor:"white", borderWidth:2, borderColor:'red'}}>
               <Icon name="document" style={{fontSize: 30, color: 'red'}}/>
               <Text style={{color:"red"}}>Eliberare fisa</Text>
             </Button>
               </CardItem>
 
               <CardItem>
-              <Button vertical style={{marginTop:'5%' , width:'100%', alignSelf:'center', justifyContent:'center',backgroundColor:"white", borderWidth:2, borderColor:'red'}}>
+              <Button vertical onPress={()=>navigation.navigate('ProgramariDoctor')} style={{marginTop:'5%' , width:'100%', alignSelf:'center', justifyContent:'center',backgroundColor:"white", borderWidth:2, borderColor:'red'}}>
               <Icon name="create" style={{fontSize: 30, color: 'red'}}/>
               <Text style={{color:"red"}}>Trimitere la doctor</Text>
             </Button>
